@@ -1,0 +1,101 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+
+.caesar,
+.vigenere,
+.playfair {
+     display: none;
+}
+
+
+
+
+
+.co {
+     border: 3px solid black;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 10px;
+     padding: 10px;
+     border-radius: 10px;
+     /* display: none; */
+     padding: 20px;
+
+     margin: 10px;
+}
+
+
+
+.svg-container {
+     height: 300px;
+     width: 400px;
+     background-color: rgb(255, 255, 255);
+     -webkit-mask-image: url("aset/psc.svg");
+     position: relative;
+     z-index: 1;
+     padding: 20px;
+
+
+
+}
+
+/* .col-md-4{
+     margin: 10px;
+     border: 1px solid black;
+     background-color: #f0f0f0;
+} */
+.container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top: 0px;
+     height: 100%;
+     background-color: #504f4f;
+     padding: 20px;
+     
+     
+}
+
+.bungkus {
+     display: flex;
+
+}
+
+.box {
+     width: 20px;
+     height: 29.2px;
+     margin: 0px 0px;
+     font-size: 13px;
+     padding: 0.5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: rgb(255, 255, 255);
+     font-family: "poppins";
+
+     /* border: #000 solid 0.5px; */
+}
+
+.indexa,
+.index {
+     /* border: #000 solid 0.5px; */
+     width: 20px;
+     display: flex;
+
+     justify-content: center;
+     color: rgb(255, 0, 0);
+}
+
+.penjelasan{
+     margin: 20px;
+}
+
