@@ -419,7 +419,7 @@ export function fillPscEnkripsi(himpunan){
      boxes.forEach((box,index)=>{
           box.textContent=himpunan[index];
           if(unik.includes(box.textContent)){
-               box.style.color="red";
+               box.style.color="yellow";
           }else{
                box.style.color="white";
           }
@@ -548,7 +548,7 @@ export function fillPscEnkripsiBytext(){
      boxes.forEach((box,index)=>{
           box.textContent=himpunan[index];
           if(unik.includes(box.textContent)){
-               box.style.color="red";
+               box.style.color="yellow";
           }else{
                box.style.color="white";
           }
@@ -662,7 +662,7 @@ boxes1.forEach((box) => {
           });
 
           // Atur kotak yang diklik menjadi merah
-          box.style.color = "red";
+          box.style.color = "yellow";
      });
 });
 
