@@ -1,0 +1,277 @@
+textarea{
+     resize: none;
+     max-height: 300px;
+}
+
+textarea::-webkit-scrollbar {
+     display: none;
+}
+
+.popup {
+     display: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 10px;
+     background: rgba(0, 0, 0, 0.7);
+     color: #fff;
+     border-radius: 5px;
+     transition: 0.2s;
+     z-index: 2;
+}
+table {
+     /* aspect-ratio: 1; */
+     /* Untuk tengahkankan tabel dalam halaman */
+     border-collapse: collapse;
+     background-color: #f0f0f0;
+     margin-bottom: 20px;
+     margin-top: 10px;
+     width: 350px;
+     /* margin-left: 40px; */
+
+}
+td {
+     border: 1px solid #000;
+     /* Border hitam 1px */
+     padding: 6px;
+     text-align: center;
+     background-color: #fff;
+     width: auto;
+     height: auto;
+     /* Warna latar belakang sel */
+}
+
+/* tr {
+     width: 10px;
+     height: 10px;
+
+} */
+
+
+
+/* body{
+     background-color: rgb(255, 255, 255);
+} */
+.navbar{
+     background-color: rgb(247, 247, 247);
+}
+
+/* iframe{
+     
+     margin-top: 10px;
+} */
+/* 
+.kotak{
+     box-shadow: 1px 11px 10px 5px black;
+} */
+#kunci{
+     border: #676666 solid 1px;
+}
+
+/* .playfair{
+     display: none;
+} */
+/* .playfair,.pyraminx{
+     display: none;
+} */
+
+
+/* .container{
+     display: flex;
+     padding: 40px;
+} */
+.bungkusSvg {
+     position: relative;
+     background-color: #4a4a4a;
+     overflow: auto;
+     padding: 15px;
+     height: 300px;
+          display: flex;
+               flex-wrap: wrap;
+               justify-content: space-between;
+     align-items: center;
+     border-radius: 10px;
+     
+}
+.svg ,.svgBawah{
+     position: relative;
+}
+.bungkus {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box {
+     width: 20px;
+     min-width: 17px;
+     height: 20px;
+     /* border: #c6c6c6 0.1px solid; */
+     color: #fff;
+     display: flex;
+     justify-content:center;
+     /* align-items: start; */
+     line-height: 15px;
+     font-size: 12px;
+     /* margin:1px ; */
+     border-radius: 50%;
+     
+}
+.index, .indexa{
+     align-items: start;
+     /* line-height: 0; */
+     line-height: 0;
+     /* color: ; */
+     color: #d3f07e;
+
+
+
+     
+}
+.atas {
+     /* background-color: rgb(104, 104, 104); */
+     padding: 20px;
+
+     /* overflow-x: auto; */
+     /* background-attachment: fixed; */
+     
+}
+
+
+/* .bungkusSvg{
+     position: relative;
+} */
+.segitiga{
+     position: absolute;
+     background-image: url('aset/psc.svg');
+     /* background-color: #fff; */
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     right:0;
+     bottom: 0;
+     background-size: 400px 200px;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+
+
+.slider{
+     color: rgb(77, 76, 76);
+     position: absolute;
+     background-color: #90a5a9;
+     
+     cursor: pointer;
+     padding: 4px;
+     border-radius: 5px;
+}
+.slider:hover{
+     background-color: #86999c;
+
+}
+
+.left{
+     left: 50px;
+     z-index: 6;
+}
+.right{
+     left: 430px;
+     z-index: 6;
+}
+
+.berapa{
+     z-index: 6;
+     position: absolute;
+     color: #fff;
+     top: 20px;
+     left: 20px;
+     
+}
+
+.berapa span{
+     background-color: #bebebe;
+     color: #000;
+     padding: 2px 4px ;
+     border-radius: 5px;
+
+}
+
+.bungkusSvgBawah  {
+     background-color: #d3d3d3;
+}
+.svgBawah .box{
+     color: #000000;
+     /* background-color: #7480d8; */
+     border-radius: 50%;
+}
+
+.svgBawah .index {
+     color: #7480d8;
+     /* border-radius: 50%; */
+
+}
+.svgBawah .indexa {
+     color: #7480d8;
+
+}
+.svgBawah .segitiga{
+     color: #000000;
+     background-image: url('aset/psc1.svg');
+
+}
+.psc {
+     width: 300px;
+
+}
+
+.pscButton {
+     width: 70px;
+}
+
+
+
+.hasilPsc {
+
+     display: block;
+}
+
+.pscText {
+     height: 20px;
+     /* border: #000 solid 0.5px; */
+     display: inline-block;
+     width: 40px;
+}
+
+.hasilSpan {
+     height: 24px;
+     border: #000 solid 0.5px;
+     display: inline-block;
+     width: 100px;
+     text-align: center;
+     vertical-align: middle;
+     font-size: 14px;
+     /* font-weight: bold; */
+     /* line-height: 0; */
+
+}
+
+.bungkuscontainer{
+     height: fit-content;
+}
+
+.hasilRGB{
+     z-index: 10;
+     aspect-ratio: 1;
+
+}
+#chipperTextEnkripsi,#chippertextDekripsi{
+     flex-wrap: wrap;
+}
+
+
+#icon{
+     display: none;
+}
