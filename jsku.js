@@ -242,6 +242,16 @@ pscAtasButton.addEventListener("click",()=>{
 fungsi.tampil()
 selectElement.addEventListener("change",fungsi.tampil);
 
+textarea.forEach(e=>{
+     
+     e.addEventListener('keyup', function (event) {
+          if (event.key === 'Enter') {
+               // Memicu klik pada tombol
+               e.parentElement.nextElementSibling.firstElementChild.click();
+          }
+     });
+});
+
 // clera
 
 // textareaenk.addEventListener("input",animate.clearWarnaEnkripsi);
