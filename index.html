@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dr. 16</title>
+     <!-- <link rel="icon" href="gmbr\dr.jpg"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="icon" href="gambar/lima.png" id="icon" type="image">
+     
+     <!-- <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+          <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Didact+Gothic&family=IBM+Plex+Serif:wght@200&family=Indie+Flower&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Noto+Sans+Syriac+Eastern:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Patrick+Hand&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+     <!-- nabar----------------------------------------------------------------------------------------------------- -->
+     <nav class="navbar navbar-expand-md  shadow-sm">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                    <img src="/gambar/lima.png" alt="Logo" width="24" height="24"
+                         class="d-inline-block align-text-top">
+                         Dr. 16
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                         <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Founders</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Kriptosistem :</a>
+                         </li>
+                         <li class="nav-item">
+                              <select class="form-select" id="selectOption" aria-label="Default select example">
+                                   <option value="1">Caesar Chipper</option>
+                                   <option value="2">Vigenere Chipper</option>
+                                   <option value="3">PlayFair Chipper</option>
+                                   <option value="4">Pyraminx Chipper</option>
+                                   <option value="5">RGB Chipper</option>
+                              </select>
+                         </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+
+                         <li class="nav-item">
+
+                              
+                                   <a class="nav-link" href="#">Created By : <span> Dr 16</span></a>
+                                   
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+     <!-- nabar----------------------------------------------------------------------------------------------------- -->
+
+
+<!-- kuncii-------------------------------------------------------------- -->
+     <div class="container-fluid mt-3">
+
+          <div class="row g-3 align-items-center">
+               <div class="col-auto">
+                    <label for="kunci" class="col-form-label">Kunci :</label>
+               </div>
+               <div class="col-auto">
+                    <input type="number" id="kunci" placeholder="Input Key" class="form-control text-center">
+               </div>
+
+               <div class="col-auto">
+                    <label for="modeSwitch" class="col-form-label">Pilih Mode : </label>
+
+               </div>
+               
+               <div class="col-auto">
+                    <div class="form-check form-switch d-flex align-items-center">          
+                         <input class="form-check-input" type="checkbox" checked id="modeSwitch" style="width: 30px; height:15px;">
+                    </div>
+               </div>
+               <div class="col-auto">
+                    <label for="modeSwitch" id="idMode">Mode: <span style="color: red;">Real Time</span></label>
+               </div>
+          </div>
+     </div>
+
+     <!-- kunci--------------------- -->
+
+     <!-- textarea------------------ -->
+
+     <div class="container-fluid px-4 text-center mt-2 ">
+          <div class="row gap-2 mx-auto">
+
+               <div class="col-md kotak shadow mx-auto" style="border: 1.2px solid rgb(71, 49, 20); border-radius:5px">
+                    
+                    <div class="mb-3">
+                         <label for="enkripsi" class="form-label"> 
+                              <h1 class="display-4">Enkripsi</h1>
+
+                         </label>
+                         <div class="grid d-flex align-items-end ">
+                              <div class="col">
+
+                                   <textarea class="form-control " id="enkripsi" placeholder="Plaintext" rows="1" style="border: 1.5px solid #3e3e3e; border-top-right-radius:0;border-bottom-right-radius:0;"></textarea>
+                              </div>
+                              <div class="col-auto">
+                                   <button id="enkripsiButton" type="button" class="btn btn-success " style="border-right:1.5px solid black;border-bottom:1.5px solid black;border-top:1.5px solid black; border-top-left-radius:0;border-bottom-left-radius:0;">Go</button>
+                              </div>
+                         </div>
+                         <div class="">
+                              <div class="col d-flex align-items-start mt-1">
+                                   <button type="button" class="btn btn-danger col-auto" id="enkripsiButton"
+                                        style="--bs-btn-padding-y: .2rem; --bs-btn-padding-x: .4rem; --bs-btn-font-size: .6rem;">
+                         
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                   </button>
+                              </div>
+                         
+                         </div>
+                         
+               
+
+                         <div class="text-success">
+                              <hr>
+                         </div>
+
+                         <div class="grid gap-0 column-gap-0">
+                         
+                                   
+                              <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
+                              Plaintext :</p>
+                                                            
+                              <p id="plaintextEnkripsi" class="text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px;"></p>
+                                   
+                              
+                              
+                         </div>
+                         <div class="grid gap-0 column-gap-0">
+                         
+                                   <div class="d-flex justify-content-between">
+
+                                        <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
+                                        Chippertext :</p>
+                                        
+                                        <button id="copyChippertextEnkripsi " type="button" class="btn btn-warning col-auto copyButton"
+                                             style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: .8rem;">
+                                        
+                                             <i class="fa-solid fa-copy"></i>
+                                        </button>
+                                        
+
+                                   </div>
+                                                                 
+                                   <p id="chipperTextEnkripsi" class="text-break text-start d-flex align-items-center px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px;border-radius:3px"></p>
+                                   
+                              
+                              
+                         </div>
+                    </div>
+                    
+               </div>
+               <div class="col-md kotak shadow" style="border: 1.2px solid rgb(71, 49, 20); border-radius:5px; ">
+               
+                    <div class="mb-3">
+                         <label for="dekripsi" class="form-label">
+                              <h1 class="display-4">Dekripsi</h1>
+               
+                         </label>
+                         <div class="grid d-flex align-items-end ">
+                              <div class="col">
+               
+                                   <textarea class="form-control " id="dekripsi" placeholder="Chippertext" rows="1" style="border: 1.5px solid #3e3e3e; border: 1.5px solid #3e3e3e; border-top-right-radius:0;border-bottom-right-radius:0;"></textarea>
+                              </div>
+                              <div class="col-auto">
+                                   <button id="dekripsiButton" type="button" class="btn btn-success" style="border-right:1.5px solid black;border-bottom:1.5px solid black;border-top:1.5px solid black; border-top-left-radius:0;border-bottom-left-radius:0;">Go</button>
+               
+                              </div>
+                         </div>
+                         <div class="">
+                              <div class="col d-flex align-items-start mt-1">
+                                   <button type="button" class="btn btn-danger col-auto"
+                                        style="--bs-btn-padding-y: .2rem; --bs-btn-padding-x: .4rem; --bs-btn-font-size: .6rem;">
+               
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                   </button>
+                              </div>
+               
+                         </div>
+               
+               
+               
+                         <div class="text-success">
+                              <hr>
+                         </div>
+               
+                         <div class="grid gap-0 column-gap-0">
+               
+               
+                              <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
+                                   Chippertext :</p>
+               
+                              <p id="chippertextDekripsi" class="text-break text-start px-2 ms-2 d-flex g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px; background-color: white;"></p>
+               
+               
+               
+                         </div>
+                         <div class="grid gap-0 column-gap-0">
+               
+                              <div class="d-flex justify-content-between">
+               
+                                   <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
+                                        Plaintext :</p>
+               
+                                        <button id="copyChippertextDekripsi " type="button" class="btn btn-warning col-auto copyButton"
+                                             style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: .8rem;">
+                                        
+                                             <i class="fa-solid fa-copy"></i>
+                                        </button>
+               
+               
+                              </div>
+               
+                              <p class="text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px;background-color: white; border-radius:3px"></p>
+               
+               
+               
+                         </div>
+                    </div>
+               
+               </div>
+          </div>
+     </div>
+     <div id="popup" class="popup"></div>
+
+     <!-- penjelasan -->
+     <hr>
+     <!-- <div class="ratio ratio-16x9">
+          <iframe src="penjelasan/playfair.html" allowfullscreen></iframe>
+     </div> -->
+
+     <div class="container-fluid">
+          <div class="card mb-4 mx-auto mt-4 vigenere d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">---Vigenere Chipper---</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A Great Creation by<cite title="Source Title"> Giovan Batista Belaso 1553</cite>
+                    </figcaption>
+               </figure>
+          </div>
+          <div class="card mb-4 mx-auto mt-4 caesar d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">---Caesar Chipper---</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A Great Creation by<cite title="Source Title"> Julius Caesar 1bc</cite>
+                    </figcaption>
+               </figure>
+          </div>
+
+          <div class="card mb-4 mx-auto mt-4 RGB d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">---RGB Chipper---</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A Great Creation by<cite title="Source Title"> Kelompok 3 2023</cite>
+                    </figcaption>
+               </figure>
+          </div>
+
+          <div class="row playfair d-none">
+               <div class="col-auto mx-auto">
+                    <table id="matrixTable"></table>
+               </div>
+               <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
+               <div class="col-md">
+                    <h5 class="card-title">Matriks Kunci</h5>
+
+                    <p class="card-text">
+
+                         Matriks Kunci pada <mark>PlayFair Chipper</mark> dibuat dengan karakter <em>uniq</em> dari kunci
+                         yang diberikan. <br>
+                         Pada Website ini <b>tidak</b> menggunakan matriks 5x5 seperti biasa, akan tetapi menggunakan
+                         <b>matriks 10x10</b> untuk perluasan karakter. <br><br>
+                         Pada Website ini digunakan <b>"δ"</b> sebegai karakter untuk mengganti karakter yang sama pada
+                         pasangan dan untuk menambah karakter pada karakter <em>single</em>
+
+                         Matriks kunci pada <mark>PlayFair Chipper</mark> digunakan untuk melakukan <em>Enkripsi</em> dan
+                         <em>Enkripsi.</em><br>
+
+
+                    </p>
+                    <p class="text-muted">
+                         Baca lebih lanjut: <a href="#" class="text-reset">PlayFair Chipper</a>.
+                    </p>
+                    <figure>
+                         <blockquote class="blockquote">
+                              <p>Penjelasan tentang <b>Kriptosistem</b> tersedia di Website kami </p>
+                         </blockquote>
+                         <figcaption class="blockquote-footer">
+                              Creator: <cite title="Source Title">Dr 16</cite>
+                         </figcaption>
+                    </figure>
+               </div>
+          </div>
+          <div class="card mb-4 mx-auto mt-4 playfair d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">---Playfair Chipper---</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A Great Creation by<cite title="Source Title"> Charles wheatstone 1854</cite>
+                    </figcaption>
+               </figure>
+          </div>
+
+          <div class="row pyraminx d-none">
+               <div class="col-auto mx-auto bungkuscontainer"> 
+
+                    <div class="container bungkusSvg">
+                         
+                         <div class="slider left"><</div>
+                         <div class="slider right">></div>
+                         <div class="berapa">Segitiga ke: <span>0</span></div>   
+                         <div class="svg svgAtas">
+                              <div class="segitiga"></div>
+                              
+                              
+                         </div>
+                    </div>
+
+                                             
+               </div>
+               <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
+               <div class="col-md">
+                    <div class="col-md">
+                         <h5 class="card-title">Algoritma Enkripsi dan Dekripsi <mark>Pyraminx Chipper</mark></h5>
+                         <p class="card-text">
+                              <ul class="list-group list-group-flush list-group-numbered">
+                                   <li class="list-group-item">Tentukan Kunci dan sisipkan kunci di <b>Pyraminx Kunci</b> seperti di samping.</li>
+                                   <li class="list-group-item">Tentukan Plaintext yang ingin di enkripsi.</li>
+                                   <li class="list-group-item">Cari index <b>PSC</b> dari setiap karakter pada <b>Plaintext</b>.</li>
+                                   <li class="list-group-item">Cari karakter yang terletak pada index <b>PSC</b> tersebut pada <b>Pyraminx Kunci</b>.</li>
+                                   <li class="list-group-item">Karakter tersebut merupakan <b>Chippertext</b> dari karakter <b>Plaintext</b>.</li>
+                                   <li class="list-group-item">Untuk setiap karakter berikutnya <mark>Pyraminx Chipper</mark> digeser seperti pada gambar. <b><mark>SELESAI</mark></b>.</li>
+                                   
+                              </ul>
+                    
+                    
+                    
+                         </p>
+                         <p class="text-muted">
+                              Baca lebih lanjut: <a href="#" class="text-reset">Pyraminx Chipper</a>.
+                         </p>
+                         <figure>
+                              <blockquote class="blockquote">
+                                   <p>Penjelasan tentang <b>Kriptosistem</b> tersedia di Website kami </p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                   Creator: <cite title="Source Title">Dr 16</cite>
+                              </figcaption>
+                         </figure>
+                    </div>
+
+                    <div class="psc ">
+                         <p class="text-muted">
+                              Cari karakter atau Index pada Segitiga di atas. <mark>(Pyraminx Kunci)</mark>
+                         </p>
+                         <div class="input-group mb-3">
+                              <input type="text" class="form-control pscInput" placeholder="Input Psc or Char"
+                                   aria-label="Recipient's username" aria-describedby="button-addon2" required maxlength="2">
+                              <button class="btn btn-outline-secondary pscButton" type="button" id="button-addon2">Go!</button>
+                         </div>
+                         <div class="hasilPsc">
+                              <div class="pscText">Char :</div>
+                              <div class="hasilSpan"></div>
+                         </div>
+                         <!-- <div class="bungkusHasilPsc">
+                                                       <span>Psc :</span><div class="hasilPsc"></div>
+                         
+                                                  </div> -->
+                    </div>
+                    
+                    
+                    
+               </div>
+
+               
+
+
+          </div>
+          <div class="card mb-4 mx-auto mt-4 pyraminx d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">Pyraminx Standard Code</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A little creation by<cite title="Source Title"> Kelompok 5</cite>
+                    </figcaption>
+               </figure>
+          </div>
+
+          <div class="row pyraminx d-none">
+               <div class="col-auto mx-auto bungkuscontainer"> 
+
+                    <div class="container bungkusSvg bungkusSvgBawah">
+                         
+                         
+                         
+                         <div class="svgBawah">
+                              <div class="segitiga"></div>
+                              
+                              
+                         </div>
+                    </div>
+
+                                             
+               </div>
+               
+               <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
+               <div class="col-md">
+                    <div class="col-md">
+                         <h5 class="card-title">Pyraminx Standard Code (PSC)</h5><br>
+                         <p class="card-text">
+                    
+                              Pyraminx Standard code atau PSC adalah kode yang digunakan pada <mark>Pyraminx Chipper.</mark> <br>
+                              secara singkat PSC merupakan ASCII-nya <mark>Pyraminx Chipper.</mark><br><br>
+                              jumlah karakter <b>PSC</b> dapat diperluas atau dipersempit tergantung baris <b>Pyraminx</b> yang digunakan. <br>
+                              Untuk memenuhi setiap cell pada <b>Pyraminx</b> maka karakter harus berjumlah <b>n<sup>2</sup></b> (n adalah banyak baris segitiga). <br><br>
+                              Pada web ini digunakan 10 baris <b>Pyraminx</b>, yang terdiri dari <b>100</b> Karakter. (95 karakter ASCII (32-126) dan 5 huruf Yunani) <br><br>
+                    
+                              <!-- dan untuk menambah karakter pada <br>karakter <em>single</em> -->
+                    
+                              Pyraminx kunci pada <mark>Pyraminx Chipper</mark> digunakan untuk melakukan <em>Enkripsi</em> dan
+                              <em>Dekripsi.</em><br>
+                    
+                    
+                         </p>
+                         <p class="text-muted">
+                              Baca lebih lanjut: <a href="#" class="text-reset">Pyraminx Standard Code</a>.
+                         </p>
+                         <figure>
+                              <blockquote class="blockquote">
+                                   <p>Penjelasan tentang <b>Kriptosistem</b> tersedia di Website kami </p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                   Creator: <cite title="Source Title">Dr 16</cite>
+                              </figcaption>
+                         </figure>
+                         <p class="text-muted">
+                              Cari Psc di bawah sini:
+                         </p>
+                         <div class="psc pscBawah">
+                              <div class="input-group mb-3">
+                                   <input type="text" class="form-control pscInput pscInputBawah" placeholder="Input Psc or Char"
+                                        aria-label="Recipient's username" aria-describedby="button-addon2" required maxlength="2">
+                                   <button class="btn btn-outline-secondary pscButton" type="button" id="button-addon2">Go!</button>
+                              </div>
+                              <!-- <div class="bungkusHasilPsc">
+                                                            <span>Psc :</span><div class="hasilPsc"></div>
+                              
+                                                       </div> -->
+                              <div class="hasilPsc hasilPscBawah">
+                                   <div class="pscText">Char :</div>
+                                   <div class="hasilSpan"></div>
+                              </div>
+                         </div>
+                    
+                    </div>
+                    
+               
+               </div>
+
+               
+
+
+          </div>
+     
+     </div>
+     <br>
+     <br><br><br><br>
+
+
+     <!-- penjelasan -->
+
+     
+
+     <!-- textarea------------------ -->
+
+
+
+     
+
+     <!-- Hapus skrip Popper.js -->
+<script src="jsku.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+               crossorigin="anonymous"></script> -->
+</body>
+
+</html>
