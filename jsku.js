@@ -259,3 +259,24 @@ textarea.forEach(e=>{
 
 // 
 // animate.warnaPsc("a","0a");
+const hapusDelete=document.querySelectorAll(".hapus")
+hapusDelete.forEach((hapus,index)=>{
+     const textarea=hapus.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild;
+     const kotak1=hapus.parentElement.parentElement.nextElementSibling.nextElementSibling.lastElementChild;
+     const kotak2=kotak1.parentElement.nextElementSibling.lastElementChild;
+     
+     hapus.addEventListener("click",()=>{
+          textarea.value="";
+          kotak1.textContent="";
+          kotak2.textContent="";
+          berapa.textContent=0;
+          // console.log(index)
+          if(index==0){
+               animate.fillPscEnkripsi(hasil[berapa.textContent])
+
+          }
+
+
+     })
+     
+})
