@@ -18,7 +18,7 @@ mode.addEventListener("change",format.changeMode)
 // copy text
 
 const copyButtons = document.querySelectorAll(".copyButton");
-copyButtons.forEach((copyButton)=>{
+copyButtons.forEach((copyButton,index)=>{
 
 
      copyButton.addEventListener("click",()=>{
@@ -27,14 +27,20 @@ copyButtons.forEach((copyButton)=>{
                const textToCopy = copyButton.parentElement.nextElementSibling.textContent;     
                fungsi.caraCopy(textToCopy)          
           }else{
-               // const textToCopy = copyButton.parentElement.nextElementSibling.innerHTML;     
-               // fungsi.caraCopyRGB(textToCopy)          
-               fungsi.copyRGBValues()        
+               
+               if(index==0){
+                    
+                    fungsi.copyRGBValues()        
+               }else{
+                    const textToCopy = copyButton.parentElement.nextElementSibling.textContent;     
+                    fungsi.caraCopy(textToCopy)          
+
+               }
 
           }
      });
      
-});     
+});       
 
 
 // save selecele,ent
