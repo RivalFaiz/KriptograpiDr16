@@ -21,11 +21,19 @@ const copyButtons = document.querySelectorAll(".copyButton");
 copyButtons.forEach((copyButton,index)=>{
 
 
+
+
      copyButton.addEventListener("click",()=>{
           if (selectElement.value!=5){
+               if(index==0){
 
-               const textToCopy = copyButton.parentElement.nextElementSibling.textContent;     
-               fungsi.caraCopy(textToCopy)          
+                    const textToCopy = copyButton.parentElement.parentElement.nextElementSibling.textContent;     
+                    fungsi.caraCopy(textToCopy)          
+               }else{
+                    const textToCopy = copyButton.parentElement.nextElementSibling.textContent;     
+                    fungsi.caraCopy(textToCopy)          
+
+               }
           }else{
                
                if(index==0){
@@ -40,7 +48,7 @@ copyButtons.forEach((copyButton,index)=>{
           }
      });
      
-});       
+});          
 
 
 // save selecele,ent
