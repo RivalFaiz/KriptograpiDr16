@@ -51,26 +51,20 @@ export function caraCopy(textToCopy){
 export function copyRGBValues() {
   // Mencari semua elemen <div> dengan kelas "hasilRGB" dalam dokumen
      
-     const divs = document.querySelectorAll('.hasilRGB');
-     if(divs[0]){
-          // console.log(divs)
-
-          let copiedText = '';
+     const divs = document.querySelectorAll('#chipperTextEnkripsi .hasilRGB');
      
-          // Loop melalui setiap elemen <div> dan mengambil warna latar belakang RGB
-          divs.forEach((div, index) => {
-               if (index > 0) {
-                    copiedText += ' ';
-               }
-               const style = window.getComputedStyle(div);
-               const backgroundColor = style.backgroundColor;
-               
-               // Mengambil nilai RGB dari background-color
-               const rgbValues = backgroundColor.match(/\(([^)]+)\)/)[1];
-               
-               if (rgbValues) {
+
+     if(divs[0]){
+          let copiedText = '';
+          divs.forEach((div) => {
+               console.log("divv",div)
+               const style = window.getComputedStyle(div).backgroundColor;
+               console.log(style)
+               const rgbValues = style.match(/\(([^)]+)\)/)[1];
+               if (rgbValues) {                    
                     copiedText += `(${rgbValues})`;
                }
+
           });
      
           // Menyalin hasil ke papan klip
@@ -104,11 +98,8 @@ export function copyRGBValues() {
           }, 1000);
 
      }
-
-     // Inisialisasi string untuk menyimpan hasil copy
-
-//   alert('Teks RGB telah disalin: ' + copiedText);
 }
+
 
 // Panggil fungsi untuk menyalin nilai-nilai RGB
 // copyRGBValues();
