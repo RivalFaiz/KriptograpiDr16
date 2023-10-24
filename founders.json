@@ -8,27 +8,27 @@
                          "nama": "M. Rival Faiz Faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
                     "rivals":{
-                         "nama": "M. Rival Faiz Faturohman",
+                         "nama": "David Samara Hasibuan",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -36,13 +36,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -50,13 +50,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -64,16 +64,65 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     }
+               }
+          },
+          "ERA":{
+               "by":"Kelompok 5",
+               "orang":{
+
+                    "rival":{
+                         "nama": "EKo",
+                         "univ": "Universitas Diponegoro",
+                         "jurusan": "Matematika",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
+                         "sosmed":{
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
+     
+                         }
+                    },
+                    "rivals":{
+                         "nama": "Rais",
+                         "univ": "Universitas Diponegoro",
+                         "jurusan": "Matematika",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
+                         "sosmed":{
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
+     
+                         }
+                    },
+                    "alif":{
+                         "nama": "Adwa",
+                         "univ": "Universitas Diponegoro",
+                         "jurusan": "Matematika",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
+                         "sosmed":{
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
+     
+                         }
+                    }
+                    
                }
           },
           "caesar":{
@@ -85,13 +134,13 @@
                          "nama": "M. Rival Faiz Faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -99,13 +148,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -113,13 +162,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -127,13 +176,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     }
@@ -148,13 +197,13 @@
                          "nama": "M. Rival Faiz Faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -162,13 +211,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -176,13 +225,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -190,13 +239,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     }
@@ -210,13 +259,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -224,13 +273,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     },
@@ -238,13 +287,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     }
@@ -258,13 +307,13 @@
                          "nama": "M. Rival faiz faturohman",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
-                         "deskripsi":"kiw kiw Cukurukuk",
-                         "image":"/gambar/foto_founders/th.jpeg",
+                         "deskripsi":"Halo Halo Halo!",
+                         "image":"gambar/foto_founders/th.jpeg",
                          "sosmed":{
-                              "ig":"https://www.instagram.com/rivalfaizf/",
-                              "linkedIn":"https://www.instagram.com/rivalfaizf/",
-                              "tiktok":"https://www.instagram.com/rivalfaizf/",
-                              "twitter":"https://www.instagram.com/rivalfaizf/"
+                              "ig":"#",
+                              "linkedIn":"#",
+                              "tiktok":"#",
+                              "twitter":"#"
      
                          }
                     }
