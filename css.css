@@ -6,6 +6,17 @@ textarea{
 textarea::-webkit-scrollbar {
      display: none;
 }
+.offcanvas.show {
+     width: 300px;
+}
+
+.offcanvas.showing {
+     width: 300px;
+}
+
+.offcanvas.hiding {
+     width: 300px;
+}
 
 .popup {
      display: none;
