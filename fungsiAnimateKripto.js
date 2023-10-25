@@ -314,6 +314,7 @@ export function warnaPsc(input,hasil){
                });
           
                }else{
+                    input=input.toLowerCase();
                     boxes.forEach((e,index)=>{
                     e.style.backgroundColor="";
                     e.style.color="black";
@@ -415,6 +416,7 @@ export function warnaPscEnkripsi(input,hasil){
           });
      
           }else{
+               input=input.toLowerCase();
 
                filteredBoxes.forEach((e,index)=>{
                     if(e!=undefined){
