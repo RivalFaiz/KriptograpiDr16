@@ -12,6 +12,7 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      
      <link rel="icon" href="gambar/lima.png" id="icon" type="image">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
      
      <!-- <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
                <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
@@ -24,11 +25,11 @@
           .offcanvas.show {
                width: 300px;
           }
-          
+
           .offcanvas.showing {
                width: 300px;
           }
-          
+
           .offcanvas.hiding {
                width: 300px;
           }
@@ -38,16 +39,18 @@
 </head>
 <body>
 
-     <nav class="navbar bg-body-tertiary sticky-top navbar-expand-md">
+<nav class="navbar bg-body-tertiary sticky-top navbar-expand-md">
      <div class="container-fluid">
           <a class="navbar-brand" href="#">
-               <img src="gambar/lima.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
-               Dr. 16
-          </a>
-          <a class="navbar-brand text-center" href="#">
+               <img src="/gambar/lima.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
                
-               Founders
           </a>
+          <a class="navbar-brand text-center mx-4" href="#">
+
+               
+               Founders <i class="bi bi-person"></i>
+          </a>
+
 
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -89,7 +92,7 @@
           </div>
      </div>
 </nav>
-     <div class="container" id="tagBar"></div>
+     <div class="container-fluid" id="tagBar"></div>
      
 
 </body>
