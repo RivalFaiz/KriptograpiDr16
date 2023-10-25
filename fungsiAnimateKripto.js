@@ -207,16 +207,17 @@ export function fillHasilPsc1(x){
                     
                }
           }else{
+
                if(x.value.length!=0){
 
                     pscText.textContent="Char :";
                     
-                    if(modul.himpunanIndexPsc.includes(x.value)){
-                         if((modul.findCharFromPsc(modul.himpunanObjek,x.value))==" "){
+                    if(modul.himpunanIndexPsc.includes(x.value.toLowerCase())){
+                         if((modul.findCharFromPsc(modul.himpunanObjek,x.value.toLowerCase()))==" "){
                               pscText.nextElementSibling.textContent="(Space)"
                          }else{
           
-                              pscText.nextElementSibling.textContent=modul.findCharFromPsc(modul.himpunanObjek,x.value)
+                              pscText.nextElementSibling.textContent=modul.findCharFromPsc(modul.himpunanObjek,x.value.toLowerCase())
                          }
                          
                          
@@ -257,11 +258,11 @@ export function fillHasilPscEnkripsi(x,himpunan){
 
                     pscText.textContent="Char :";
                     
-                    if(modul.himpunanIndexPsc.includes(x.value)){
-                         if((modul.findCharFromPsc(himpunan,x.value))==" "){
+                    if(modul.himpunanIndexPsc.includes(x.value.toLowerCase())){
+                         if((modul.findCharFromPsc(himpunan,x.value.toLowerCase()))==" "){
                               pscText.nextElementSibling.textContent="(Space)";
                          }else{
-                              pscText.nextElementSibling.textContent=modul.findCharFromPsc(himpunan,modul.himpunanIndexPscEnkripsi[modul.himpunanIndexPsc.indexOf(x.value)])
+                              pscText.nextElementSibling.textContent=modul.findCharFromPsc(himpunan,modul.himpunanIndexPscEnkripsi[modul.himpunanIndexPsc.indexOf(x.value.toLowerCase())])
                          }
                          
                          
@@ -281,8 +282,6 @@ export function fillHasilPscEnkripsi(x,himpunan){
      }
      
 }
-
-
 // warna pada input PSC
 export function warnaPsc(input,hasil){
      // const listKarakter=Array.from(karakter);
