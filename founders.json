@@ -18,8 +18,8 @@
      
                          }
                     },
-                    "rivals":{
-                         "nama": "David Samara Hasibuan",
+                    "linda":{
+                         "nama": "Ermelinda Benna Kireyna",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -33,21 +33,7 @@
                          }
                     },
                     "alif":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "sinta":{
-                         "nama": "M. Rival faiz faturohman",
+                         "nama": "Alif Faisandy",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -61,55 +47,7 @@
                          }
                     },
                     "gio":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    }
-               }
-          },
-          "ERA":{
-               "by":"Kelompok 5",
-               "orang":{
-
-                    "rival":{
-                         "nama": "EKo",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "rivals":{
-                         "nama": "Rais",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "alif":{
-                         "nama": "Adwa",
+                         "nama": "Ghisela Salsabila As'syifa",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -125,55 +63,14 @@
                     
                }
           },
+          
           "caesar":{
-               "by":"Kelompok 5",
+               "by":"Julius Casear",
                "orang":{
 
 
-                    "rival":{
-                         "nama": "M. Rival Faiz Faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "alif":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "sinta":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "gio":{
-                         "nama": "M. Rival faiz faturohman",
+                    "caesar":{
+                         "nama": "Julius caesar",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -186,57 +83,16 @@
      
                          }
                     }
+
                }
           },
           "vigenere":{
-               "by":"Kelompok 5",
+               "by":"Giovan Batista Belaso",
 
                "orang":{
 
                     "rival":{
-                         "nama": "M. Rival Faiz Faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "alif":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "sinta":{
-                         "nama": "M. Rival faiz faturohman",
-                         "univ": "Universitas Diponegoro",
-                         "jurusan": "Matematika",
-                         "deskripsi":"Halo Halo Halo!",
-                         "image":"gambar/foto_founders/th.jpeg",
-                         "sosmed":{
-                              "ig":"#",
-                              "linkedIn":"#",
-                              "tiktok":"#",
-                              "twitter":"#"
-     
-                         }
-                    },
-                    "gio":{
-                         "nama": "M. Rival faiz faturohman",
+                         "nama": "Giovan Batista Belaso",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -252,11 +108,11 @@
                }
           },
           "RGB":{
-               "by":"Kelompok 5",
+               "by":"Kelompok 3",
                "orang":{
 
-                    "rival":{
-                         "nama": "M. Rival faiz faturohman",
+                    "farrel":{
+                         "nama": "Jennifer Caliysta Farrell",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -270,7 +126,7 @@
                          }
                     },
                     "rival1":{
-                         "nama": "M. Rival faiz faturohman",
+                         "nama": "Dewi Ruthyara Rizqiariendya",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -284,7 +140,7 @@
                          }
                     },
                     "rival2":{
-                         "nama": "M. Rival faiz faturohman",
+                         "nama": "Muhammad Arif Satria",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
@@ -300,11 +156,11 @@
                }
           },
           "playfair":{
-               "by":"Kelompok 5",
+               "by":"Charles Wheatstone",
                "orang":{
 
                     "rival":{
-                         "nama": "M. Rival faiz faturohman",
+                         "nama": "Charles Wheatstone",
                          "univ": "Universitas Diponegoro",
                          "jurusan": "Matematika",
                          "deskripsi":"Halo Halo Halo!",
