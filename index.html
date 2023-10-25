@@ -11,8 +11,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
      <link rel="icon" href="gambar/lima.png" id="icon" type="image">
      
      <!-- <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
@@ -27,11 +26,10 @@
 <body>
 
      <!-- nabar----------------------------------------------------------------------------------------------------- -->
-         <!-- nabar----------------------------------------------------------------------------------------------------- -->
 <nav class="navbar bg-body-tertiary sticky-top navbar-expand-md">
      <div class="container-fluid">
           <a class="navbar-brand" href="#">
-               <img src="gambar/lima.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
+               <img src="/gambar/lima.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
                Dr. 16
           </a>
 
@@ -46,7 +44,7 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                aria-labelledby="offcanvasNavbarLabel">
                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                </div>
                <div class="offcanvas-body col-auto">
@@ -65,7 +63,7 @@
                                         <option value="3">PlayFair Chipper</option>
                                         <option value="5">RGB Chipper</option>
                                         <option value="4">Pyraminx Chipper</option>
-<!--                                         <option value="6">Pyraminx Chipper (Lanjutan)</option> -->
+                                        <!-- <option value="6">Pyraminx Chipper (Lanjutan)</option> -->
                                    </select>
                               </div>
                          </li>
@@ -111,11 +109,13 @@
           </div>
      </div>
 </nav>
+     
      <!-- nabar----------------------------------------------------------------------------------------------------- -->
 
 
 <!-- kuncii-------------------------------------------------------------- -->
-     <div class="card container-fluid mb-3 mx-auto mt-3 pt-3 pb-3">
+
+     <div class=" card container-fluid mb-3 mx-auto mt-3 pt-3 pb-3">
 
           <div class="row g-3 align-items-center">
                <div class="col-auto">
@@ -174,7 +174,7 @@
                               <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
                               Plaintext :</p>
                                                             
-                              <p id="plaintextEnkripsi" class="text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px;"></p>
+                              <p id="plaintextEnkripsi" class="pln text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px; background-color:white;"></p>
                                    
                               
                               
@@ -185,10 +185,12 @@
 
                                         <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
                                         Chippertext :</p>
-                                        
-                                        <div class="col-auto d-flex">
 
-                                            <p class="text-break text-start px-2 ms-0 g-col-12 mb-0 " style="justify-self: end;">Copy here <i class="fa-solid fa-arrow-right text-center"></i></p>
+                                        <div class="col-auto d-flex align-items-center">
+
+                                             <p class="text-break text-start px-2 ms-0 g-col-12 mb-0 " style="justify-self: end;">
+                                                  <cite title="Source Title"><small>copy here</small> </cite>
+                                              <i class="fa-solid fa-arrow-right text-center"></i></p>
                                              
                                              <button id="copyChippertextEnkripsi" type="button" class="btn btn-warning col-auto copyButton"
                                                   style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: .8rem;">
@@ -200,7 +202,7 @@
 
                                    </div>
                                                                  
-                                   <p id="chipperTextEnkripsi" class="text-break text-start d-flex align-items-center px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px;border-radius:3px"></p>
+                                   <p id="chipperTextEnkripsi" class="chp text-break text-start d-flex align-items-center px-2 ms-2 g-col-12" style="background-color:white;border: 1px solid black; min-height:20px;border-radius:3px"></p>
                                    
                               
                               
@@ -248,7 +250,7 @@
                               <p class="text-break text-start px-2 ms-0 g-col-12 mb-0">
                                    Chippertext :</p>
                
-                              <p id="chippertextDekripsi" class="text-break text-start px-2 ms-2 d-flex g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px; background-color: white;"></p>
+                              <p id="chippertextDekripsi" class="chp text-break text-start px-2 ms-2 d-flex g-col-12" style="border: 1px solid black; min-height:20px; border-radius:3px; background-color: white;"></p>
                
                
                
@@ -269,7 +271,7 @@
                
                               </div>
                
-                              <p class="text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px;background-color: white; border-radius:3px"></p>
+                              <p class="pln text-break text-start px-2 ms-2 g-col-12" style="border: 1px solid black; min-height:20px;background-color: white; border-radius:3px"></p>
                
                
                
@@ -390,6 +392,143 @@
                <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
                <div class="col-md">
                     <div class="col-md">
+                         <h5 class="card-title align-items-center" style="line-height:1.5;">Algoritma Enkripsi dan Dekripsi <mark>Pyraminx Chipper</mark></h5>
+                         <p class="card-text">
+                              <ul class="list-group list-group-flush list-group-numbered">
+                                   <li class="list-group-item">Tentukan Kunci dan sisipkan kunci di <b>Pyraminx Kunci</b> seperti di samping.</li>
+                                   <li class="list-group-item">Tentukan Plaintext yang ingin di enkripsi.</li>
+                                   <li class="list-group-item">Cari index <b>PSC</b> dari setiap karakter pada <b>Plaintext</b>.</li>
+                                   <li class="list-group-item">Cari karakter yang terletak pada index <b>PSC</b> tersebut pada <b>Pyraminx Kunci</b>.</li>
+                                   <li class="list-group-item">Karakter tersebut merupakan <b>Chippertext</b> dari karakter <b>Plaintext</b>.</li>
+                                   <li class="list-group-item">Untuk setiap karakter berikutnya <mark>Pyraminx Chipper</mark> digeser seperti pada gambar. <b><mark>SELESAI</mark></b>.</li>
+                                   
+                              </ul>               
+                         </p>
+                         <p class="text-muted">
+                              Baca lebih lanjut: <a href="#" class="text-reset">Pyraminx Chipper</a>.
+                         </p>
+                    </div>
+
+                    <div class="psc ">
+                         <p class="text-muted">
+                              Cari karakter atau Index pada Segitiga di atas. <mark>(Pyraminx Kunci)</mark>
+                         </p>
+                         <div class="input-group mb-3">
+                              <input type="text" class="form-control pscInput" placeholder="Input Psc or Char"
+                                   aria-label="Recipient's username" aria-describedby="button-addon2" required maxlength="2">
+                              <button class="btn btn-outline-secondary pscButton" type="button" id="button-addon2">Go!</button>
+                         </div>
+                         <div class="hasilPsc">
+                              <div class="pscText" style="white-space: pre;">Char :</div>
+                              <div class="hasilSpan"></div>
+                         </div>
+                    </div>               
+               </div>
+          </div>
+
+          <div class="card mb-4 mx-auto mt-4 pyraminx d-none">
+          
+               <figure class="text-center mt-4">
+                    <blockquote class="blockquote">
+                         <p class="display-6">Pyraminx Standard Code</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                         A little creation by<cite title="Source Title"> Kelompok 5</cite>
+                    </figcaption>
+               </figure>
+          </div>
+
+          <div class="row pyraminx d-none">
+               <div class="col-auto mx-auto bungkuscontainer"> 
+
+                    <div class="container bungkusSvg bungkusSvgBawah">                    
+                         <div class="svgBawah">
+                              <div class="segitiga"></div>                              
+                         </div>
+                    </div>
+
+                                             
+               </div>
+               
+               <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
+               <div class="col-md">
+                    <div class="col-md">
+                         <h5 class="card-title">Pyraminx Standard Code (PSC)</h5><br>
+                         <p class="card-text collapse show" id="collapseExample">
+                              
+                              Pyraminx Standard code atau PSC adalah kode yang digunakan pada <mark>Pyraminx Chipper.</mark> <br>
+                              secara singkat PSC merupakan ASCII-nya <mark>Pyraminx Chipper.</mark><br><br>
+                              jumlah karakter <b>PSC</b> dapat diperluas atau dipersempit tergantung baris <b>Pyraminx</b> yang digunakan. <br>
+                              Untuk memenuhi setiap cell pada <b>Pyraminx</b> maka karakter harus berjumlah <b>n<sup>2</sup></b> (n adalah banyak baris segitiga). <br><br>
+                              Pada web ini digunakan 10 baris <b>Pyraminx</b>, yang terdiri dari <b>100</b> Karakter. (95 karakter ASCII (32-126) dan 5 huruf Yunani) <br><br>
+                              
+                              <!-- dan untuk menambah karakter pada <br>karakter <em>single</em> -->
+                              
+                              Pyraminx kunci pada <mark>Pyraminx Chipper</mark> digunakan untuk melakukan <em>Enkripsi</em> dan
+                              <em>Dekripsi.</em><br>
+                              
+                              
+                         </p>
+                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                              aria-expanded="false" aria-controls="collapseExample" style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .6rem;">
+                              Read/ Hide
+                         </button>
+
+                         <p class="text-muted">
+                              Baca lebih lanjut: <a href="#" class="text-reset">Pyraminx Standard Code</a>.
+                         </p>
+                         <figure>
+                              <blockquote class="blockquote">
+                                   <p>Penjelasan tentang <b>Kriptosistem</b> tersedia di Website kami </p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                   Creator: <cite title="Source Title">Dr 16</cite>
+                              </figcaption>
+                         </figure>
+                         <p class="text-muted">
+                              Cari Psc di bawah sini:
+                         </p>
+                         <div class="psc pscBawah">
+                              <div class="input-group mb-3">
+                                   <input type="text" class="form-control pscInput pscInputBawah" placeholder="Input Psc or Char"
+                                        aria-label="Recipient's username" aria-describedby="button-addon2" required maxlength="2">
+                                   <button class="btn btn-outline-secondary pscButton" type="button" id="button-addon2">Go!</button>
+                              </div>
+                              <div class="hasilPsc hasilPscBawah">
+                                   <div class="pscText" style="white-space: pre;">Char :</div>
+                                   <div class="hasilSpan"></div>
+                              </div>
+                         </div>
+                    
+                    </div>
+                    
+               
+               </div>
+
+               
+
+
+          </div>
+          <div class="row pyraminxLanjutan d-none">
+               <div class="col-auto mx-auto bungkuscontainer"> 
+
+                    <div class="container bungkusSvg">
+                         
+                         <div class="slider left"><</div>
+                         <div class="slider right">></div>
+                         <div class="berapa">Segitiga ke: <span>0</span></div>   
+                         <div class="svg svgAtas lanjutan">
+                              <div class="segitiga"></div>
+                              
+                              
+                         </div>
+                    </div>
+
+                                             
+               </div>
+               <!-- <iframe src="playfair.html" title="PlayFair" class="w-100 h-100"></iframe> -->
+               <div class="col-md">
+                    <div class="col-md">
                          <h5 class="card-title">Algoritma Enkripsi dan Dekripsi <mark>Pyraminx Chipper</mark></h5>
                          <p class="card-text">
                               <ul class="list-group list-group-flush list-group-numbered">
@@ -431,10 +570,7 @@
                               <div class="pscText">Char :</div>
                               <div class="hasilSpan"></div>
                          </div>
-                         <!-- <div class="bungkusHasilPsc">
-                                                       <span>Psc :</span><div class="hasilPsc"></div>
-                         
-                                                  </div> -->
+
                     </div>
                     
                     
@@ -445,7 +581,7 @@
 
 
           </div>
-          <div class="card mb-4 mx-auto mt-4 pyraminx d-none">
+          <div class="card mb-4 mx-auto mt-4 pyraminxLanjutan d-none">
           
                <figure class="text-center mt-4">
                     <blockquote class="blockquote">
@@ -457,14 +593,14 @@
                </figure>
           </div>
 
-          <div class="row pyraminx d-none">
+          <div class="row pyraminxLanjutan d-none">
                <div class="col-auto mx-auto bungkuscontainer"> 
 
                     <div class="container bungkusSvg bungkusSvgBawah">
                          
                          
                          
-                         <div class="svgBawah">
+                         <div class="svgBawah lanjutan">
                               <div class="segitiga"></div>
                               
                               
@@ -478,21 +614,25 @@
                <div class="col-md">
                     <div class="col-md">
                          <h5 class="card-title">Pyraminx Standard Code (PSC)</h5><br>
-                         <p class="card-text">
-                    
+                         <p class="card-text collapse show" id="collapseExample">
+                              
                               Pyraminx Standard code atau PSC adalah kode yang digunakan pada <mark>Pyraminx Chipper.</mark> <br>
                               secara singkat PSC merupakan ASCII-nya <mark>Pyraminx Chipper.</mark><br><br>
                               jumlah karakter <b>PSC</b> dapat diperluas atau dipersempit tergantung baris <b>Pyraminx</b> yang digunakan. <br>
                               Untuk memenuhi setiap cell pada <b>Pyraminx</b> maka karakter harus berjumlah <b>n<sup>2</sup></b> (n adalah banyak baris segitiga). <br><br>
                               Pada web ini digunakan 10 baris <b>Pyraminx</b>, yang terdiri dari <b>100</b> Karakter. (95 karakter ASCII (32-126) dan 5 huruf Yunani) <br><br>
-                    
+                              
                               <!-- dan untuk menambah karakter pada <br>karakter <em>single</em> -->
-                    
+                              
                               Pyraminx kunci pada <mark>Pyraminx Chipper</mark> digunakan untuk melakukan <em>Enkripsi</em> dan
                               <em>Dekripsi.</em><br>
-                    
-                    
+                              
+                              
                          </p>
+                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                              aria-expanded="false" aria-controls="collapseExample" style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .6rem;">
+                              Read
+                         </button>
                          <p class="text-muted">
                               Baca lebih lanjut: <a href="#" class="text-reset">Pyraminx Standard Code</a>.
                          </p>
